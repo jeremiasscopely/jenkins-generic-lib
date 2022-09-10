@@ -1,7 +1,9 @@
 def call(Map config = [:]){
   switch (config.operationName){
     case "callMehod1":
-      echo "called method1"
+      sh ls
+      sh ll
+      sh ls
       break;
     case "callMehod2":
       echo "called method2"
