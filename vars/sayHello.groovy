@@ -1,9 +1,7 @@
 def call(){
-  return {
-    stage("print"){
-      steps{
-        echo "Testado!!!!"
-      }
+  stage("print"){
+    steps{
+      echo "Testado!!!!"
     }
   }
 }
