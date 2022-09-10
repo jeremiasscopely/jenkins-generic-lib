@@ -1,5 +1,5 @@
-def call(String operationName, Map config = [:]){
-  switch (operationName){
+def call(Map config = [:]){
+  switch (config.operationName){
     case "callMehod1":
       echo "called method1"
       break;
