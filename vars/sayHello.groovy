@@ -1,5 +1,3 @@
 def call(){
-  steps{
-    echo "Testado!!!!"
-  }
+  echo "Testado!!!!"
 }
